@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id=""main-container>
+        <div id="title-container">
+            <h1>Your Weather App</h1>
+        </div>
+        <div id="app-container">
+            <header>
+                <!-- Colocar elementos del encabezado aquí -->
+            </header>
+            <main>
+                <div id="city-input-container">
+                    <input type="text" id="city" placeholder="Enter a city name">
+                    <button onclick="getWeather()">Get Weather</button>
+                </div>
+                <div id="weather-info">
+                    <!-- La información del clima se mostrará aquí -->
+                </div>
+            </main>
+            <footer>
+                <!-- Colocar elementos del pie de página aquí -->
+            </footer>
+        </div>
+    </div>
+    <div id="weather-image"></div>
+    <script src="script.js"></script>
+</body>
+</html>

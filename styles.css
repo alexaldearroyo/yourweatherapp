@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#title-container {
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+#app-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#city-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    margin: 5px 0;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input {
+    width: 250px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weather-info {
+    display: none; /* Esto es para mantenerlo oculto hasta que se haga clic en el botón */
+    background-color: #007BFF; /* Color de fondo azul */
+    color: white; /* Color de texto blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto elevado */
+    text-align: center; /* Centrar el texto */
+    font-size: 18px; /* Tamaño de fuente más grande */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+#weather-info > div:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Línea separadora blanca con transparencia */
+    padding-bottom: 10px; /* Espaciado en la parte inferior para separar el contenido de la línea */
+    margin-bottom: 10px; /* Espaciado adicional en la parte inferior para separar los elementos */
+}
+
+#title-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
